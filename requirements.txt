@@ -1,0 +1,23 @@
+# Help Desk SaaS Multi-Tenant - Dependências para Produção
+
+# Framework web
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Werkzeug==3.0.1
+
+# Banco de dados
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Servidor de produção
+gunicorn==21.2.0
+
+# Utilitários
+pytz==2023.3
+python-dotenv==1.0.0
+
+# Gráficos (opcional, para relatórios)
+matplotlib==3.8.2
+
+# Segurança e produção
+python-dotenv==1.0.0
